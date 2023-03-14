@@ -63,6 +63,10 @@
         margin-top: 40px;
     }
 
+    .Soft-Skills {
+        margin-top: 40px;
+    }   
+
     article {
         display:inline-block;
     }
@@ -259,6 +263,11 @@
         display: flex;
         justify-content: center;
     }
+
+    .Soft-Skills {
+        color:rgba(0, 0, 0, 0);
+        margin-top: 40px;
+    }
 }
 
 
@@ -401,6 +410,11 @@
 
     .langages {
         color: rgba(0, 0, 0, 0)
+    }
+
+    .Soft-Skills {
+        color:rgba(0, 0, 0, 0);
+        margin-top: 40px;
     }
 }
 
@@ -545,5 +559,10 @@
 
     .langues {
         color: rgba(0, 0, 0, 0);
+    }
+
+    .Soft-Skills {
+        color:rgba(0, 0, 0, 0);
+        margin-top: 40px;
     }
 }
