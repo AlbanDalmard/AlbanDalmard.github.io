@@ -1,12 +1,12 @@
 @media screen and (min-width: 900px) {
 
-    body {
+    main {
         font-family: "Merriweather";
         display: flex;
         justify-content: space-evenly;
     } 
 
-    .CV {
+    #CV {
         aspect-ratio: 210/297;
         max-width: 850px;
         display: flex;
@@ -33,19 +33,21 @@
     }
 
     .photo {
-        width: 90%;
+        width: 80%;
         aspect-ratio: 29/35;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        
+        margin-top: 15px;
+        margin-bottom: auto;
+        padding: 3px;
+        background-color: white;
     }
-
+    
     .Photo_CV {
         height: 100%;
         width: 100%;
-        padding: 3px;
-        background-color: white;
+        background: url("https://albandalmard.github.io/Photo_CV.jpg");
     }
 
 
@@ -129,13 +131,13 @@
 }
 
 @media screen and (max-width: 900px) and (min-width: 655px) {
-    body {
+    main {
         font-family: "Merriweather";
         justify-content: space-evenly;
         min-width: 700px;
     } 
     
-    .CV {
+    #CV {
         text-align: center;
     }
     
@@ -162,22 +164,21 @@
     }
     
     .photo {
-        height: 110px;
+        width: 80%;
         aspect-ratio: 29/35;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        margin-left: 10px;
         margin-top: 15px;
         margin-bottom: auto;
-        
+        padding: 3px;
+        background-color: white;
     }
     
     .Photo_CV {
         height: 100%;
         width: 100%;
-        padding: 3px;
-        background-color: white;
+        background: url("https://albandalmard.github.io/Photo_CV.jpg");
     }
     
     
@@ -273,13 +274,13 @@
 
 
 @media screen and (max-width: 655px) and (min-width: 400px) {
-    body {
+    main {
         font-family: "Merriweather";
         justify-content: space-evenly;
         min-width: 700px;
     } 
     
-    .CV {
+    #CV {
         text-align: center;
     }
     
@@ -306,22 +307,21 @@
     }
     
     .photo {
-        height: 110px;
+        width: 80%;
         aspect-ratio: 29/35;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        margin-left: 10px;
         margin-top: 15px;
         margin-bottom: auto;
-        
+        padding: 3px;
+        background-color: white;
     }
     
     .Photo_CV {
         height: 100%;
         width: 100%;
-        padding: 3px;
-        background-color: white;
+        background: url("https://albandalmard.github.io/Photo_CV.jpg");
     }
     
     
@@ -419,12 +419,12 @@
 }
 
 @media screen and (max-width: 478px) {
-    body {
+    main {
         font-family: "Merriweather";
         justify-content: space-evenly;
     } 
     
-    .CV {
+    #CV {
         text-align: center;
     }
     
@@ -451,22 +451,21 @@
     }
     
     .photo {
-        height: 110px;
+        width: 80%;
         aspect-ratio: 29/35;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        margin-left: 10px;
         margin-top: 15px;
         margin-bottom: auto;
-        
+        padding: 3px;
+        background-color: white;
     }
     
     .Photo_CV {
         height: 100%;
         width: 100%;
-        padding: 3px;
-        background-color: white;
+        background: url("https://albandalmard.github.io/Photo_CV.jpg");
     }
     
     
